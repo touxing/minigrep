@@ -1,0 +1,195 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug executable 'demo'",
+      "cargo": {
+        "args": [
+          "build",
+          "--bin=demo",
+          "--package=demo"
+        ],
+        "filter": {
+          "name": "demo",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug unit tests in executable 'demo'",
+      "cargo": {
+        "args": [
+          "test",
+          "--no-run",
+          "--bin=demo",
+          "--package=demo"
+        ],
+        "filter": {
+          "name": "demo",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug unit tests in library 'grrs'",
+      "cargo": {
+        "args": [
+          "test",
+          "--no-run",
+          "--lib",
+          "--package=grrs"
+        ],
+        "filter": {
+          "name": "grrs",
+          "kind": "lib"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug executable 'grrs'",
+      "cargo": {
+        "args": [
+          "build",
+          "--bin=grrs",
+          "--package=grrs"
+        ],
+        "filter": {
+          "name": "grrs",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug unit tests in executable 'grrs'",
+      "cargo": {
+        "args": [
+          "test",
+          "--no-run",
+          "--bin=grrs",
+          "--package=grrs"
+        ],
+        "filter": {
+          "name": "grrs",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug executable 'output-log'",
+      "cargo": {
+        "args": [
+          "build",
+          "--bin=output-log",
+          "--package=grrs"
+        ],
+        "filter": {
+          "name": "output-log",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug unit tests in executable 'output-log'",
+      "cargo": {
+        "args": [
+          "test",
+          "--no-run",
+          "--bin=output-log",
+          "--package=grrs"
+        ],
+        "filter": {
+          "name": "output-log",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug integration test 'cli'",
+      "cargo": {
+        "args": [
+          "test",
+          "--no-run",
+          "--test=cli",
+          "--package=grrs"
+        ],
+        "filter": {
+          "name": "cli",
+          "kind": "test"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug executable 'rzip'",
+      "cargo": {
+        "args": [
+          "build",
+          "--bin=rzip",
+          "--package=rzip"
+        ],
+        "filter": {
+          "name": "rzip",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "sourceLanguges": ["rust"]
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug unit tests in executable 'rzip'",
+      "cargo": {
+        "args": [
+          "test",
+          "--no-run",
+          "--bin=rzip",
+          "--package=rzip"
+        ],
+        "filter": {
+          "name": "rzip",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}
