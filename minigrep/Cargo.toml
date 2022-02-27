@@ -6,9 +6,9 @@ author = ["hotsuitor <hotsuitor@qq.com>"]
 description = "A cli tool to search a string from a file."
 homepage = "https://github.com/touxing/minigrep"
 repository = "https://github.com/touxing/minigrep"
-readme = "mingrep/README.md"
+readme = "README.md"
 license = "MIT"
-license-file = "minigrep/LICENSE.txt"
+license-file = "LICENSE.txt"
 keywords = ["practise", "search string from file"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
