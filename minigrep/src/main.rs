@@ -1,4 +1,4 @@
-use minigrep::{run, Config};
+use minigrep_tool::{run, Config};
 use std::env;
 use std::process;
 

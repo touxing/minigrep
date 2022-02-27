@@ -1,5 +1,5 @@
 [package]
-name = "minigrep"
+name = "minigrep_tool"
 version = "0.1.0"
 edition = "2021"
 author = ["hotsuitor <hotsuitor@qq.com>"]
@@ -9,7 +9,7 @@ repository = "https://github.com/touxing/minigrep"
 readme = "README.md"
 license = "MIT"
 license-file = "LICENSE.txt"
-keywords = ["practise", "search string from file"]
+keywords = ["practice", "searching"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
