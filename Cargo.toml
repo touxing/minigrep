@@ -3,5 +3,6 @@
 members = [
   'demo',
   'grrs',
-  'rzip',
+  'closures',
+  'minigrep',
 ]
