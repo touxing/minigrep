@@ -2,12 +2,14 @@
 name = "minigrep"
 version = "0.1.0"
 edition = "2021"
-author = "hotsuitor, hotsuitor@qq.com"
+author = ["hotsuitor <hotsuitor@qq.com>"]
 description = "A cli tool to search a string from a file."
 homepage = "https://github.com/touxing/minigrep"
-reporsitory = "https://github.com/touxing/minigrep.git"
-readme = "https://github.com/touxing/minigrep#README.md"
+repository = "https://github.com/touxing/minigrep"
+readme = "mingrep/README.md"
 license = "MIT"
+license-file = "minigrep/LICENSE.txt"
+keywords = ["practise", "search string from file"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
