@@ -5,4 +5,9 @@ members = [
   'grrs',
   'closures',
   'minigrep',
+  'gui',
+  'blog',
+  'demo2',
+  'complex',
+  'trait_object',
 ]
